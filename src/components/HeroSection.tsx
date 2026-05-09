@@ -127,7 +127,7 @@ const textItem = {
     y: 0,
     transition: { duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] },
   }),
-};
+} as any;
 
 export function HeroSection() {
   const { setAccent } = useAccent();
