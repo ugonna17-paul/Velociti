@@ -27,7 +27,7 @@ export default function RootLayout({
     >
       <body className="bg-[#020617]">
         <AccentProvider>
-          <Nav accent="" />
+          <Nav />
           {children}
         </AccentProvider>
       </body>
